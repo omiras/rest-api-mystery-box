@@ -2,7 +2,9 @@
 
 La empresa Mytsery Box ha lanzado una campaña agresiva para vender el mayor núemero de _cajas misteriorias_ . Amigos y parejas de todo el mundo están comprando sus códigos porque no saben que regalar para cumpleaños y fechas destacadas.
 
-Al comprar una Mystery Box obtienes un código único asociado a una experiencia _sorpresa_. Debes canjear el código para obtener la experiencia.  
+![Mystery Box](wonder.jpg)
+
+Al comprar una Mystery Box obtienes un código único asociado a una experiencia _sorpresa_. Debes canjear el código para obtener la experiencia, y además, hay que canjearlo antes de la fecha de caducidad.
 
 ## Iteración 1: Importar datos
 
@@ -19,7 +21,7 @@ Por el momento se desea implementar un único _endpoint_ para que sea consumido 
 
 `PATCH /api/mystery-box/:code`
 
-En el cuerpo de la solicitud en formato JSON se debe incluir la siguiente información para informar a la API que se quiere canjear el códgio:
+En el cuerpo de la solicitud en formato JSON se debe incluir la siguiente información para informar a la API que se quiere canjear el código:
 
 ```
 {
@@ -74,6 +76,9 @@ Debe devolver un mensaje de éxito y código HTTP adecuado. Ejemplo:
 
 Crea un cliente muy simple que consuma la REST API.
 Puede tratarse de un campo para introducir el cupon y un botón para canjearlo
+Si el cupón es correcta, aparecerá el nombre del premio.
+Si no es correcto, debe informar al usuario adecuadamente de cuál es el motivo por el que no se puede canjear dicho cupón
+
 Hay dos opciones para crear el cliente
 
 1. Crea un poroyecto nuevo de Visual Studio (abre una nueva ventana) usando tan solo HTML/CSS/JavaScript. Usa adecuadamente el método _fetch_ para consumir la API como [en otros proyectos](https://github.com/omiras/random-joke-api-project).
