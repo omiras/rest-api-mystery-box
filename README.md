@@ -19,6 +19,7 @@ Después de ejecutar:
 ![](https://oscarm.tinytake.com/media/16bce8f?filename=1727947878828_TinyTake03-10-2024-11-31-16_638635446781166886.png&sub_type=thumbnail_preview&type=attachment&width=1191&height=121)
 
 Deberías obtener 20 documentos en la base de datos:
+![](https://oscarm.tinytake.com/media/16bcf29?filename=1727949152062_TinyTake03-10-2024-11-52-14_638635459507621305.png&sub_type=thumbnail_preview&type=attachment&width=1199&height=590)
 
 
 ## Iteración 2: Creación de la REST API
