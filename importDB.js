@@ -44,7 +44,7 @@ async function doImport() {
             Cupoun.create({
                 code: rowValues[1],
                 expiration_date: new Date(rowValues[2]),
-                prize: rowValues[3],
+                reward: rowValues[3],
                 redeemed: Boolean(rowValues[4])
 
             })
