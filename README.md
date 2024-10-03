@@ -17,7 +17,7 @@ Para este proceso no necesitas montar una app MVC. Crea un fichero de nombre **i
 
 ## Iteración 2: Creación de la REST API
 
-Por el momento se desea implementar un único _endpoint_ para que sea consumido tanto por la app Web http://mystery-box-prizes.com como por la app que se puede uno descargar en Google Play o Apple Store.
+Por el momento se desea implementar un único _endpoint_ :
 
 `PATCH /api/mystery-box/:code`
 
