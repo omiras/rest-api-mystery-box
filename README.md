@@ -8,7 +8,7 @@ Al comprar una Mystery Box obtienes un código único asociado a una experiencia
 
 ## Iteración 1: Importar datos
 
-Des de el CRM de Ventas de la empresa han generado una hoja Excel con todos los cupones disponibles. Incluso algunos ya han sido canjeados en las oficinas de Mystery Box. 
+Des de el CRM de Ventas de la empresa han generado una hoja Excel con todos los cupones disponibles. 
 
 Busca la manera de importar este fichero Excel a una base de datos de MongoDB.
 El resultado final es que debes obtener una base de datos de nombre **mystery_box**, y una colección de nombre **cupounCodes** 

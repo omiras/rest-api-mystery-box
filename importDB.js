@@ -12,7 +12,10 @@ const cupounSchema = new Schema({
     code: String,
     expiration_date: Date,
     reward: String,
-    redeemed: Boolean
+    redeemed: {
+        type: Boolean,
+        default: false
+    }
 });
 
 const Cupoun = new model('cupoun', cupounSchema);
@@ -25,7 +28,7 @@ connectDB().then(() => {
 
 
 async function doImport() {
-    await workbook.xlsx.readFile('./cuponDB_v3.xlsx');
+    await workbook.xlsx.readFile('./cuponDB.xlsx');
     const worksheet = workbook.getWorksheet(1); // Puedes acceder por índice o por nombre
     console.log("🚀 ~ file: importDB.js:8 ~ doImport ~ worksheet:", worksheet)
 
@@ -44,9 +47,7 @@ async function doImport() {
             Cupoun.create({
                 code: rowValues[1],
                 expiration_date: new Date(rowValues[2]),
-                reward: rowValues[3],
-                redeemed: Boolean(rowValues[4])
-
+                reward: rowValues[3]
             })
         } catch (error) {
             console.error(error.message)
