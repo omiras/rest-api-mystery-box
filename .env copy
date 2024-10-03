@@ -1,0 +1,2 @@
+PORT=3000
+MONGODB_URI=mongodb+srv://oscar:oscar@cluster0.c8tq0vp.mongodb.net/emotional-shelf-30-oct

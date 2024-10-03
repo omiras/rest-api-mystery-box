@@ -15,6 +15,12 @@ El resultado final es que debes obtener una base de datos de nombre **mystery_bo
 
 Para este proceso no necesitas montar una app MVC. Crea un fichero de nombre **importDB.js** que sea capaz de leer el fichero **cupounDB.xlsx** e inserte todos los registro como documentos en la base de datos
 
+Después de ejecutar:
+![](https://oscarm.tinytake.com/media/16bce8f?filename=1727947878828_TinyTake03-10-2024-11-31-16_638635446781166886.png&sub_type=thumbnail_preview&type=attachment&width=1191&height=121)
+
+Deberías obtener 20 documentos en la base de datos:
+
+
 ## Iteración 2: Creación de la REST API
 
 Por el momento se desea implementar un único _endpoint_ :
