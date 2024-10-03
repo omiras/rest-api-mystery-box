@@ -1,0 +1,25 @@
+{
+  "name": "rest-api-users",
+  "version": "1.0.0",
+  "description": "La empresa Mytsery Box ha lanzado una campaña agresiva para vender el mayor núemero de _cajas misteriorias_ . Amigos y parejas de todo el mundo están comprando sus códigos porque no saben que regalar para cumpleaños y fechas destacadas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omiras/rest-api-mystery-box.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omiras/rest-api-mystery-box/issues"
+  },
+  "homepage": "https://github.com/omiras/rest-api-mystery-box#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "mongoose": "^8.7.0"
+  }
+}
